@@ -1,0 +1,21 @@
+{
+  "name": "bb-cli",
+  "version": "0.0.1",
+  "description": "A Betty Blocks CLI",
+  "main": "index.js",
+  "repository": "https://github.com/Pandabweer/BB-cli",
+  "author": "Enrique Bos <enrique.bos@bettyblocks.com>",
+  "license": "MIT",
+  "private": false,
+  "engines": {
+    "node": ">=21.7.1"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@types/node": "^20.11.26",
+    "commander": "^12.0.0",
+    "typescript": "^5.4.2"
+  }
+}
